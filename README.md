@@ -61,11 +61,12 @@ volumes:
   my-db:
 ```	  
 
-Now we can start our container. In command line go into directory `mysql-docker` and run `docker-compose up`
+- Now we can start our container. In command line go into directory `mysql-docker` and run `docker-compose up`
+
 ![mysql-docker-up](https://raw.githubusercontent.com/nayonacademy/images/master/mysql-docker/mysql-docker-up.png)
 The mysql will run on 3306 port and similar to this screenshot.
 
-Now you can try to connect with data base with this command
+- Now you can try to connect with data base with this command
 
 ```mysql -h 127.0.0.1 -u user -P 3306 -p```
 
@@ -73,7 +74,7 @@ Now you can try to connect with data base with this command
 ## Now connect database with mysql workbench
 ![mysql-workbench connect](https://raw.githubusercontent.com/nayonacademy/images/master/mysql-docker/msyqlworkbench-connect-with-dockerize-mysql.png)
 
-Now we can create a database if we need and we can connect with our projects
+- Now we can create a database if we need and we can connect with our projects
 
 ![database](https://raw.githubusercontent.com/nayonacademy/images/master/mysql-docker/workbench-show-database.png)
 It can be deoply in server or in local computer as we need
@@ -82,4 +83,5 @@ When whole work are done we can stop the mysql docker
 $ cd mysql-docker
 $ docker-compose down
 ```
+
 Thanks for reading. Happy to use dockerize mysql 
